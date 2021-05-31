@@ -11,17 +11,18 @@
 
 .Game-header {
 width: 100%;
-background: linear-gradient(-45deg, #673ab7, #9c27b0);
+background: linear-gradient(-45deg, #9a92ff, #4d59ff);
 background-size: 400% 400%;
 -webkit-animation: Gradient 15s ease infinite;
 -moz-animation: Gradient 15s ease infinite;
 animation: Gradient 15s ease infinite;
 }
 
-h2 {
+h1 {
+color: white;
 font-weight: 100;
 font-size: 2em;
-border-bottom: 2px solid purple;
+border-bottom: 2px solid rgb(35, 0, 75);
 display: inline-block;
 }
 
@@ -31,3 +32,30 @@ display: inline-block;
     margin-right: auto;
     margin-top: 0;
   }
+
+  .Game-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Game-reroll {
+    /* font-size: 2em; */
+    color: white;
+    font-weight: 100;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(
+      to right,
+      #91eae4 0%,
+      #7f7fd5 51%,
+      #91eae4 100%
+    );
+    border-radius: 0.5rem;
+    border: none;
+    width: 50%;
+  
+    margin-bottom: 2rem;
+  }
+  

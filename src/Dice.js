@@ -3,6 +3,10 @@ import Die from './Die.js';
 import './Dice.css';
 
 class Dice extends Component {
+    constructor(props){
+        super(props);
+    }
+    
     render() {
         return (
             <div className="Dice">
