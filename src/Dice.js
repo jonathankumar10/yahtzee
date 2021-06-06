@@ -2,11 +2,7 @@ import React, { Component } from 'react'
 import Die from './Die.js';
 import './Dice.css';
 
-class Dice extends Component {
-    constructor(props){
-        super(props);
-    }
-    
+class Dice extends Component {    
     render() {
         return (
             <div className="Dice">
